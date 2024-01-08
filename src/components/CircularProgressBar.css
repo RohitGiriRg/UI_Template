@@ -1,0 +1,21 @@
+.circular-progress {
+    position: relative;
+}
+
+.circular-progress-bar {
+    transition: stroke-dashoffset 0.35s;
+}
+
+.circular-progress-indicator {
+    stroke-dasharray: 0 1000;
+    transition: stroke-dasharray 0.35s;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+}
