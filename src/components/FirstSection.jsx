@@ -13,13 +13,15 @@ import Navbar from './Navbar';
 
 import './FirstSection.css';
 import CircularProgressBar from './CircularProgressBar';
+import RangeSlider from './RangeSlider';
+import RangeSliderper from './RangeSliderper.jsx';
 
 
 
 const FirstSection = (props) => {
   return (
 
-    <div className="home-container">
+    <div className="home-container display-container">
       <div className="home-container01">
         <div className="home-container02">
           <img
@@ -49,7 +51,6 @@ const FirstSection = (props) => {
             </button>
           </div>
         </div>
-            <br />
             <br />
         <div className="home-container06">
           <div className="home-container07">
@@ -175,9 +176,13 @@ const FirstSection = (props) => {
           <div className="home-container27">
             <span className="home-text47">Retirement Strategy</span>
             <div className="home-container28">
-              <span className="home-text48">Employee Contribution</span>
+              <span className="home-text48">Employee Contribution</span> 
+               <RangeSliderper> </RangeSliderper> 
             </div>
-            <span className="home-text49">Retirement Age</span>
+            <div className="home-container28">
+               <span className="home-text49">Retirement Age</span>
+              <RangeSlider></RangeSlider>
+            </div>           
             <div className="home-separator7"></div>
             <div className="home-container29">
               <span className="home-text50">Employer Contribution</span>

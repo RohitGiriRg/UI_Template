@@ -5,8 +5,29 @@
 html,
 body {
     overflow-x: hidden;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
     zoom: 89%;
+}
+
+@media(max-width: 1100px) {
+
+
+    html,
+    body {
+        overflow-y: scroll;
+        zoom: 100%;
+    }
+
+    .display-container {
+        display: none;
+    }
+
+    canvas {
+        height: 430px !important;
+    }
+
+
+
 }
 
 

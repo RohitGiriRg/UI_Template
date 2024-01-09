@@ -84,7 +84,7 @@ const data = {
 };
 
 const StackedBarChart = () => {
-  return <Bar options={options} data={data} />;
+  return <Bar  options={options} data={data} />;
 };
 
 export default StackedBarChart;

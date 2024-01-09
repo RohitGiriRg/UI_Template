@@ -1,0 +1,34 @@
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, skyblue 0%, skyblue 12%, #ddd 12%, #ddd 100%);
+    border-radius: 5px;
+    outline: none;
+    margin: 20px 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    position: relative;
+}
+
+.range-value {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.ranger {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: inherit;
+}
