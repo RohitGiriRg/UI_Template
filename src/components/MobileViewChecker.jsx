@@ -9,6 +9,7 @@ import StackedBarChart from './StackbarChart';
 import RangeSlider from './RangeSlider';
 import RangeSliderper from './RangeSliderper.jsx';
 import { CircularProgressbar } from 'react-circular-progressbar';
+import NavbarPrimaryWidget from './NavbarPrimaryWidget.jsx';
 
 const MobileViewChecker = () => {
   const [isMobileView, setIsMobileView] = useState(false);
@@ -30,6 +31,7 @@ const MobileViewChecker = () => {
   return (
     <div>
       {isMobileView && <div className="mobile-container">
+      <NavbarPrimaryWidget></NavbarPrimaryWidget>
       <div className="mobile-container01">
         <div className="mobile-container02">
           <img
