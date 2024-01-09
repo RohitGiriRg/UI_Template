@@ -13,7 +13,7 @@
     "chart.js": "^4.4.1",
     "dangerous-html": "^0.1.13",
     "postcss": "^8.4.33",
-    "react": "^18.2.0",
+    "react": "^17.x",
     "react-chartjs-2": "^5.2.0",
     "react-charts": "^3.0.0-beta.57",
     "react-circular-progressbar": "^2.1.0",
